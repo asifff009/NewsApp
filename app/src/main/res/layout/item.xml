@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/bottom_shade"
+        android:paddingBottom="10dp"
+        android:layout_margin="10dp"
+        >
+
+        <ImageView
+            android:id="@+id/itemCover"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_margin="5dp"
+            android:src="@drawable/icon_image"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="left|center"
+
+            >
+            <TextView
+                android:id="@+id/tvCat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cat"
+                android:background="#E0E2D13E"
+                android:textColor="#000"
+                android:textSize="20dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="2dp"
+                android:paddingBottom="2dp"
+                android:layout_marginBottom="5dp"
+
+                />
+            <TextView
+                android:id="@+id/itemTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Samsung Galaxy A06 receives huge response"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:maxLines="2"
+                android:ellipsize="end"
+
+                />
+            <TextView
+                android:id="@+id/itemDes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Galaxy A06 features a 6.7-inch HD+ display with a 20:9 aspect ratio, MediaTek Helio G85 processor, 5,000mAh battery with 25W fast charging. The device also comes with 4 years of security updates and 2 generations of OS upgrades.
+
+                To ensure a smooth photography experience, the Galaxy A06 offers a 50 MP primary camera, an 8 MP front camera, and a 2MP depth sensor.
+
+                For content creators and video enthusiasts, the device can be the perfect starting point with its true dual camera and 60fps 1080p video recording features.
+
+                Following the amazing response from customers, Samsung has announced to refill the stock of Galaxy A06 with new variants (4GB + 128GB and 6GB + 128GB) by mid-May.   "
+                android:textSize="15sp"
+                android:maxLines="1"
+                android:ellipsize="end"
+
+                />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>
